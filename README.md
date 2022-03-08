@@ -5,13 +5,12 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#introduccion-pseint">Introduccion PseInt</a>
+      <a href="LeccionBasicos/README.md">Introduccion PseInt</a>
     </li>
     <li>
-      <a href="#comandos-básicos">Comandos Básicos</a>
+      <a href="LeccionBasicos/README.md">Comandos Básicos</a>
     </li>
-    <li><a href="#comandos-condicionales">Comandos Condicionales</a></li>
-    <li><a href="#comandos-ciclicos">Comandos Ciclicos</a></li>
+    <li><a href="LeccionBasicos/README.md">Comandos Condicionales</a></li>
   </ol>
 </details>
 
