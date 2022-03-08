@@ -62,8 +62,11 @@ FinProceso
 ```  
   
 ## ASIGNAR
-## Ejemplos
-### Días Vividos
+	
+## **Ejemplos**
+1. [Dias Vividos](#ejemplo01)
+2. [Área de Círculo](#ejemplo02)	
+#### Dias Vividos <a name="ejemplo01"></a>
 **Descripción**
 Un estudiante de la carrera de programación está preocupado porque cada día que pasa se vuelve adulto para ello desea saber el número de días vividos en base a su edad.
 	
@@ -98,7 +101,7 @@ FinProceso
 ![image](https://user-images.githubusercontent.com/8560750/157213961-aa9fa1e0-3c0b-4034-9b3e-5d30ae8e1c0a.png)
 ***	
 
-Ejemplo	Calcular área de círculo
+#### Ejemplo	Calcular área de círculo  <a name="ejemplo02"></a>
 **Descripción**.
 	
 Un estudiante de asignatura de matemáticas está preocupado porque debe presentar su examen de geometría y no sabe a ciencia cierta la fórmula del área del círculo.
