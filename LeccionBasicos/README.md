@@ -66,6 +66,8 @@ FinProceso
 ## **Ejemplos**
 1. [Dias Vividos](#ejemplo01)
 2. [Área de Círculo](#ejemplo02)	
+3. [Días a Segundos](#ejemplo03)	
+
 #### Dias Vividos <a name="ejemplo01"></a>
 **Descripción**
 Un estudiante de la carrera de programación está preocupado porque cada día que pasa se vuelve adulto para ello desea saber el número de días vividos en base a su edad.
@@ -133,6 +135,41 @@ Proceso Area_Circulo
 	Escribir PI*radio*radio;
 	
 FinProceso
+```
+	
+#### Ejemplo Días a segundos  <a name="ejemplo03"></a>
+**Descripción**.
+	
+Cree un programa que calcule e imprima el número de segundos que hay en un determinado número de días.
+	
+**Entrada**.
+	Días es de tipo entero
+	
+**Salida**.
+	La cantidad de segundos.
+	
+	
+	
+```
+//Descripcion: Algoritmo que calcula el número de segundod un determinado día
+//Autor: Guillermina Sánchez
+//Fecha 01 Marzo 2022
+Proceso Dias_Segundos
+	Definir dias Como Entero;
+	
+	Escribir "Algoritmo Cálculo de Segundos en base a Días";
+	Escribir "=======================================";
+	Escribir "";  //Salto de línea
+	
+	Escribir Sin Saltar "Ingresar la cantidad de días ";
+	leer dias;
+	
+	Esperar 3 segundos; //Se duerme el programa tres segundos
+	Escribir Sin Saltar "La cantidad de segundos son ";
+	Escribir dias*24*60*60;
+	
+FinProceso
+![image](https://user-images.githubusercontent.com/8560750/157338442-b1a1f87f-ef15-46b4-a6b5-e07145b5ef09.png)
 
 
 ```
