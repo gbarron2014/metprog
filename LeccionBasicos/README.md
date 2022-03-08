@@ -62,3 +62,36 @@ FinProceso
 ```  
   
 ## ASIGNAR
+## Ejemplos
+### Días Vividos
+**Descripción**
+Un estudiante de la carrera de programación está preocupado porque cada día que pasa se vuelve adulto para ello desea saber el número de días vividos en base a su edad.
+	
+**Entrada**	
+Un número que representa la edad de la persona.
+Tomar en cuenta que cada año tiene 365 días.
+	
+**Salida**
+	Total de días vividos.
+	
+Ejemplo	Calcular Días Vividos
+```
+//Programa que calcula los días vividos en base a la edad
+// Autor: Fernando Lira Campos
+// Fecha: 03 Marzo 2022
+Proceso DiasVividos
+	Definir edad Como Entero;
+	
+	Escribir "Programa que calcula los días vividos";
+	Escribir "-------------------------------------";
+	Escribir "";
+	Escribir "Ingresa la edad > ";
+	Leer edad;
+	
+	Escribir "Los días vividos son ", edad*365, " dias";
+	Escribir "-------------------------------------";
+	Escribir "";
+FinProceso
+
+```
+	
