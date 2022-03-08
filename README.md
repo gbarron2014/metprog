@@ -5,7 +5,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="LeccionBasicos/README.md">Introduccion PseInt</a>
+      <a href="#Introduccion PseInt">Introduccion PseInt</a>
     </li>
     <li>
       <a href="LeccionBasicos/README.md">Comandos Básicos</a>
