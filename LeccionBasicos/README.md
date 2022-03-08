@@ -1,9 +1,10 @@
 # Introducción a Comandos Básicos
+***
 ## Configuración
 Todos los algoritmos deberán ser configurados en modo estricto  **Configurar | Opciones del Lenguaje**
 ![image](https://user-images.githubusercontent.com/8560750/157211285-248eaaa9-9ae6-4272-a360-b68c91e8cac4.png)
 
-
+***
 ## Comentarios
 Los comentarios en un algoritmo documentan el código para su mantenimiento.
 ```
@@ -14,7 +15,7 @@ Proceso Hola
 
 FinProceso
 ```
-
+***
 ## ESCRIBIR
 La instrucción Escribir permite mostrar valores al ambiente.
      Escribir <exprl> , <expr2> , ... , <exprN> ;
@@ -35,7 +36,7 @@ Salida
 Si en algún punto de la linea se encuentran las palabras clave "SIN SALTAR" los valores se muestran en la pantalla, pero no se avanza a la linea siguiente, de modo que la próxima acción de lectura o escritura continuará en la misma linea. En caso contrario, se añade un salto de línea luego de las expresiones mostradas.
       Escribir Sin Saltar <exprl> , ... , <exprN>;
       Escribir <exprl> , ... , <exprN> Sin Saltar; 
-
+***
 ## LEER
 La instrucción Leer permite ingresar información desde el ambiente. 
       Leer <variable1> , <variable2> , ... ,<variableN> ; 
@@ -60,9 +61,15 @@ Proceso Hola
 	Escribir nombre;
 FinProceso
 ```  
-  
+***  
 ## ASIGNAR
-	
+La instrucción de asignación permite almacenar una valor en una variable.
+```
+      <variable> <- <expresión> ;
+```
+	      
+Al ejecutarse la asignación, primero se evalúa la expresión de la derecha y luego se asigna el resultado a la variable de la izquierda. El tipo de la variable y el de la expresión deben coincidir.
+***
 ## **Ejemplos**
 1. [Dias Vividos](#ejemplo01)
 2. [Área de Círculo](#ejemplo02)	
@@ -147,8 +154,7 @@ Cree un programa que calcule e imprima el número de segundos que hay en un dete
 	
 **Salida**.
 	La cantidad de segundos.
-	
-	
+		
 	
 ```
 //Descripcion: Algoritmo que calcula el número de segundod un determinado día
@@ -169,10 +175,19 @@ Proceso Dias_Segundos
 	Escribir dias*24*60*60;
 	
 FinProceso
-![image](https://user-images.githubusercontent.com/8560750/157338442-b1a1f87f-ef15-46b4-a6b5-e07145b5ef09.png)
 
+#### Porque podemos programar  <a name="ejemplo04"></a>
+**Descripción**.
+	
+Antes de que aprendieras a programar, tenías que usar la calculadora científica para realizar todos los cálculos que te dejaban de tarea. Sin embargo, ahora con la computadora sientes que cualquier cálculo se volvió fácil para ti. Tu profesor de matemáticas se enteró de esto y te ha desafiado a calcular lo siguiente:
+![image](https://user-images.githubusercontent.com/8560750/157340713-f27712d1-5a68-4bfe-841d-68d66189c314.png)
 
-```
-***
-![image](https://user-images.githubusercontent.com/8560750/157214524-1d8bb02d-2c47-4b9f-9343-bd80570b5d38.png)
+	 Escribe un programa que calcule el valor de  dado .
+	
+**Entrada**.
+	Un real x. Puedes suponer que x esta entre 1 y 100.
+	
+**Salida**.
+	Un real que sea el valor de y. Tu programa se considerará correcto si el valor calculado es razonablemente cercano a la respuesta exacta..
+		
 	
