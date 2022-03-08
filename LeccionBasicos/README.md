@@ -94,4 +94,42 @@ Proceso DiasVividos
 FinProceso
 
 ```
+***
+![image](https://user-images.githubusercontent.com/8560750/157213961-aa9fa1e0-3c0b-4034-9b3e-5d30ae8e1c0a.png)
+***	
+
+Ejemplo	Calcular área de círculo
+**Descripción**.
+	
+Un estudiante de asignatura de matemáticas está preocupado porque debe presentar su examen de geometría y no sabe a ciencia cierta la fórmula del área del círculo.
+
+Escriba un programa en PseInt que calcule el área de un círculo.
+	
+**Entrada**.
+	Radio del círculo.
+	
+**Salida**.
+	Área de círculo
+	
+```
+//Programa que calcula los días vividos en base a la edad
+// Autor: Fernando Lira Campos
+// Fecha: 03 Marzo 2022
+Proceso DiasVividos
+	Definir edad Como Entero;
+	
+	Escribir "Programa que calcula los días vividos";
+	Escribir "-------------------------------------";
+	Escribir "";
+	Escribir "Ingresa la edad > ";
+	Leer edad;
+	
+	Escribir "Los días vividos son ", edad*365, " dias";
+	Escribir "-------------------------------------";
+	Escribir "";
+FinProceso
+
+```
+***
+![image](https://user-images.githubusercontent.com/8560750/157214524-1d8bb02d-2c47-4b9f-9343-bd80570b5d38.png)
 	
