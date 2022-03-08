@@ -112,22 +112,25 @@ Escriba un programa en PseInt que calcule el área de un círculo.
 	Área de círculo
 	
 ```
-//Programa que calcula los días vividos en base a la edad
-// Autor: Fernando Lira Campos
-// Fecha: 03 Marzo 2022
-Proceso DiasVividos
-	Definir edad Como Entero;
+//Descripcion: Algoritmo que realiza cálculos de área de círculo
+//Autor: Guillermina Sánchez
+//Fecha 01 Marzo 2022
+Proceso Area_Circulo
+	Definir radio Como Real;
 	
-	Escribir "Programa que calcula los días vividos";
-	Escribir "-------------------------------------";
-	Escribir "";
-	Escribir "Ingresa la edad > ";
-	Leer edad;
+	Escribir "Algoritmo de Cálculo de Área de Círculo";
+	Escribir "=======================================";
+	Escribir "";  //Salto de línea
 	
-	Escribir "Los días vividos son ", edad*365, " dias";
-	Escribir "-------------------------------------";
-	Escribir "";
+	Escribir Sin Saltar "Ingresar el radio ";
+	leer radio;
+	
+	Esperar 3 segundos; //Se duerme el programa tres segundos
+	Escribir Sin Saltar "El área del círculo  es ";
+	Escribir PI*radio*radio;
+	
 FinProceso
+
 
 ```
 ***
