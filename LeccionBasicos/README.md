@@ -177,12 +177,14 @@ Proceso Dias_Segundos
 	Escribir dias*24*60*60;
 	
 FinProceso
-
+```
+	      
 #### Porque podemos programar  <a name="ejemplo05"></a>
 **Descripción**.
 	
 Antes de que aprendieras a programar, tenías que usar la calculadora científica para realizar todos los cálculos que te dejaban de tarea. Sin embargo, ahora con la computadora sientes que cualquier cálculo se volvió fácil para ti. Tu profesor de matemáticas se enteró de esto y te ha desafiado a calcular lo siguiente:
-![image](https://user-images.githubusercontent.com/8560750/157340713-f27712d1-5a68-4bfe-841d-68d66189c314.png)
+![image](https://user-images.githubusercontent.com/8560750/157676949-f003acb3-c596-4284-b07a-efc595ad583a.png)
+
 
 	 Escribe un programa que calcule el valor de número dado .
 	
@@ -191,5 +193,33 @@ Antes de que aprendieras a programar, tenías que usar la calculadora científic
 	
 **Salida**.
 	Un real que sea el valor de y. Tu programa se considerará correcto si el valor calculado es razonablemente cercano a la respuesta exacta..
-		
+	 
+```
+/ Descripción: Evaluar formulas algoritmicas
+// Autor:  Gabriel Barrón
+// Fecha:  10 marzo 2022
+Algoritmo Podemos_Programar
+	//Declaración de variables
+	Definir x, z Como Real;
+	Definir exp1, exp2, exp3, res Como Real;
 	
+	Escribir "Algoritmo resolución Ecuacion";
+	Escribir "_____________________________";
+	Escribir "";
+	Escribir "Ingresar el valor de X ";
+	Leer x;  // Almacena dato de usuario
+	
+	exp1 <- (x + x^2)/(5*x + 3) + x; //Primera expresion
+	exp2 <- (x + x^2) / (5*x +3);
+	exp3 <- (x + x^2)/(5*x + 3) + 2*x;
+	
+	res <- exp1* (exp2/exp3);
+	
+	Escribir "_____________________________";
+	Escribir "";
+	Escribir "El resultado final es ", res;
+	
+FinAlgoritmo	      
+```
+![image](https://user-images.githubusercontent.com/8560750/157678328-076bdfa9-8993-4ed1-89ed-c9f917b2242d.png)
+	      
