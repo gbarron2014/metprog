@@ -43,7 +43,7 @@ La instrucción Leer permite ingresar información desde el ambiente.
   
 Esta instrucción toma N valores desde el ambiente (en este caso el teclado) y los asigna a las N variables mencionadas. Pueden incluirse una o más variables, por lo tanto el comando leerá uno o más valores.
 
-**Ejemplo Saluda a persona en base a su nombre"**
+#### Saludar Usuario <a name="ejemplo04"></a>
 ```
 // Algoritmo saluda a una persona en base a su nombre
 // Autor  Marlenne Díaz Juárez
@@ -73,7 +73,9 @@ Al ejecutarse la asignación, primero se evalúa la expresión de la derecha y l
 ## **Ejemplos**
 1. [Dias Vividos](#ejemplo01)
 2. [Área de Círculo](#ejemplo02)	
-3. [Días a Segundos](#ejemplo03)	
+3. [Días a Segundos](#ejemplo03)
+4. [Saludar Usuario](#ejemplo04)
+5. [Porque podemos programar](#ejemplo05)	      
 
 #### Dias Vividos <a name="ejemplo01"></a>
 **Descripción**
@@ -176,13 +178,13 @@ Proceso Dias_Segundos
 	
 FinProceso
 
-#### Porque podemos programar  <a name="ejemplo04"></a>
+#### Porque podemos programar  <a name="ejemplo05"></a>
 **Descripción**.
 	
 Antes de que aprendieras a programar, tenías que usar la calculadora científica para realizar todos los cálculos que te dejaban de tarea. Sin embargo, ahora con la computadora sientes que cualquier cálculo se volvió fácil para ti. Tu profesor de matemáticas se enteró de esto y te ha desafiado a calcular lo siguiente:
 ![image](https://user-images.githubusercontent.com/8560750/157340713-f27712d1-5a68-4bfe-841d-68d66189c314.png)
 
-	 Escribe un programa que calcule el valor de  dado .
+	 Escribe un programa que calcule el valor de número dado .
 	
 **Entrada**.
 	Un real x. Puedes suponer que x esta entre 1 y 100.
