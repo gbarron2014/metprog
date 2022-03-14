@@ -10,7 +10,7 @@ La instrucción **Para** ejecuta una secuencia de instrucciones un número deter
   <ol>
     <li><a href="#repetir-diez-veces">Repetir Diez Veces</a></li>
     <li><a href="#desplegar-1-al-100">Desplegar 1 al 100</a></li>
-    <li><a href="#uso">Uso</a></li>
+    <li><a href="#trazar-línea">Trazar Línea</a></li>
     <li><a href="#guias">Guias</a></li>
     <li><a href="#contribucion">Contribución</a></li>
     <li><a href="#licencia">licencia</a></li>
@@ -68,3 +68,40 @@ FinProceso
 - Despliega el contenido al revés  100 al 1.
 - Despliega ahora los números pares del 2 al 100.
 - Despliega ahora los números pares del 1 al 99.
+
+***
+## Trazar una línea 
+Usaremos el comando PARA para trazar una línea con el ciclo PARA.
+              
+```
+// Algoritmo Trazar línea con ciclo PARA
+// Autor: Felipe Arellano Ruiz
+// Fecha: 01 Marzo 2022
+Proceso ejemplo_para
+	//Define la variable que lleva cuenta en ciclo
+	Definir contador Como Entero;
+	
+	Para contador <- 1 Hasta 30 Con Paso 1 Hacer
+		Escribir Sin Saltar "-";
+		Esperar 0.5 segundos; // Se duerme 0.5 segundos
+	FinPara
+	Escribir "";
+	
+	Escribir "Algoritmo que traza una línea";
+	Para contador <- 1 Hasta 30 Con Paso 1 Hacer
+		Escribir Sin Saltar "-";
+		Esperar 0.5 segundos; // Se duerme 0.5 segundos
+	FinPara
+	Escribir "";
+FinProceso           
+```     
+![imagen](https://user-images.githubusercontent.com/8560750/158095435-ba6b8fe3-0d7c-44c0-9586-a359605fc2bc.png)
+
+### Desafío
+- Despliega el contenido dentro del marco. <p>
+![imagen](https://user-images.githubusercontent.com/8560750/158095673-8b77a26c-5a75-4607-a7b1-31f66c27ff37.png)<p>
+
+- Despliega el más datos dentro del marco. <p>		    
+![imagen](https://user-images.githubusercontent.com/8560750/158096106-bbba9eb4-24fe-4bfd-89cd-c0858bd2ef65.png)
+		    
+			 
