@@ -10,7 +10,7 @@
     <li>
       <a href="LeccionBasicos/README.md">Comandos Básicos</a>
     </li>
-    <li><a href="LeccionBasicos/README.md">Comandos Condicionales</a></li>
+    <li><a href="LeccionCiclicos/README.md">Comandos Cíclicos</a></li>
   </ol>
 </details>
 
@@ -45,7 +45,6 @@ En un algoritmo o programa se hace referencia a una variable mediante un identif
 - ESCRIBIR
 - LEER
 - ASIGNAR
-## Comandos Condicionales
-## Comandos Ciclicos
+
 
 
