@@ -12,11 +12,8 @@ La instrucción **Para** ejecuta una secuencia de instrucciones un número deter
     <li><a href="#repetir-diez-veces">Repetir Diez Veces</a></li>
     <li><a href="#desplegar-1-al-100">Desplegar 1 al 100</a></li>
     <li><a href="#trazar-una-línea">Trazar Una Línea</a></li>
-    <li><a href="#guias">Guias</a></li>
-    <li><a href="#contribucion">Contribución</a></li>
-    <li><a href="#licencia">licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#participantes">Participantes</a></li>
+    <li><a href="#sembrando-zanahorias">Sembrando Zanahorias</a></li>
+
   </ol>
 </details>              
 
@@ -111,4 +108,32 @@ FinProceso
 - Despliega el más datos dentro del marco. <p>		    
 ![imagen](https://user-images.githubusercontent.com/8560750/158096106-bbba9eb4-24fe-4bfd-89cd-c0858bd2ef65.png)
 		    
-			 
+## Sembrando Zanahorias 
+El abuelo de PseInti desea sembrar en su huerto una hilera de zanahorias.
+              
+```
+// Algoritmo Sembrando Zanahorias.
+// Autor: Felipe Arellano Ruiz
+// Fecha: 01 Marzo 2022
+Proceso sembrando_zanahorias
+	//Define la variable que lleva cuenta en ciclo
+	Definir contador Como Entero;
+	
+	Para contador <- 1 Hasta 10 Con Paso 1 Hacer
+		Escribir Sin Saltar "& ";
+	FinPara
+	Escribir "";
+	
+FinProces           
+```     
+![image](https://user-images.githubusercontent.com/8560750/158347317-dee5d215-47ad-4434-9701-ec70916b1079.png)
+
+
+### Desafío
+- Ahora siembra 10 Zanahorias y 10 Lechugas en cada Zurco.
+![image](https://user-images.githubusercontent.com/8560750/158347580-8b79e154-a3f5-47d4-84e9-da0bddc45786.png)
+
+- Ahora siembra Una Zanahoria y Una Lechuga.		    
+![image](https://user-images.githubusercontent.com/8560750/158347729-42077229-bd53-4066-a427-a30595841468.png)
+		    
+			 			 
