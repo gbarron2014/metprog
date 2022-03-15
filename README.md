@@ -5,7 +5,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#Introduccion PseInt">Introduccion PseInt</a>
+      <a href="#introduccion-a-pseint">introduccion a PseInt</a>
     </li>
     <li>
       <a href="LeccionBasicos/README.md">Comandos Básicos</a>
@@ -14,7 +14,7 @@
   </ol>
 </details>
 
-## Introduccion PseInt
+## Introduccion a PseInt
 - Es un software que interpreta pseudocódigo.
 - Permite la generación de diagramas de flujo, dado un algoritmo en pseudocódigo.
 - Para compilar y ejecutar nuestro pseudocódigo debemos presionar el botón. 
@@ -41,6 +41,37 @@ En un algoritmo o programa se hace referencia a una variable mediante un identif
 - Debe comenzar con letras, y puede contener solo letras, números y el guión bajo.
 - No puede contener ni espacios ni operadores, ni coincidir con una palabra reservada o función del lenguaje, para no generar ambigüedad.
 - Ejemplos de identificadores válidos son: A, B, C, Lado1, Total, Nombre_y_Apellido, DireccionCorreo, ... En la mayoría de los lenguajes reales los nombres de variables no pueden contener acentos, ni diéresis, ni eñes. En PSeInt, esto se permite, dependiendo del perfil de lenguaje seleccionado.
+
+## Tipos de datos
+- Los tipos de datos simples se determinan automáticamente cuando se crean las variables.
+- Las dos acciones que pueden crear una variable son la lectura(LEER) y la asignación(<-).
+- Por ejemplo, la asignación "A<-0;" está indicando implícitamente que la variable A será una variable numérica. Una vez determinado el tipo de dato, deberá permanecer constante durante toda la ejecución del proceso; en caso contrario el proceso será interrumpido.
+
+### Tipos de datos Simples
+Existen tres tipos de datos básicos:
+- **Numérico**: números, tanto enteros como reales. Para separar decimales se utiliza el punto. Ejemplos: 12 23 0 -2.3 3.14 
+- **Lógico**: solo puede tomar dos valores: VERDADERO o FALSO. 
+- **Carácter**: caracteres o cadenas de caracteres encerrados entre comillas (pueden ser dobles o simples). Ejemplos 'hola' "hola mundo" '123' 'FALSO' 'etc' 
+```
+	//Definir el tipo de dato de IDENTIFICADOR
+	Definir edad Como Entero;
+	Definir precio Como Real;
+	Definir sala_cine Como Caracter;
+	Definir nombre como Texto;
+	Definir direccion como Cadena;
+	Definir isAprobado Como Logico;
+```
+#### Asignación de valores.
+```
+	//Asignación de posibles valores
+	edad <- 16; // Tipo Entero
+	precio <- 21.14; // Tipo Real
+	sala_cine <- 'A'; //Tipo Caracter
+	isAprobado <- Verdadero; // Tipo Logico
+	nombre <- "Juan Francisco Ríos Arenas"; // Tipo Texto
+	direccion <- "Alamedad"; //Tipo Texto
+```
+
 ## Comandos Básicos
 - ESCRIBIR
 - LEER
