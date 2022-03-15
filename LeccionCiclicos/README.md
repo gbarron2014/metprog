@@ -131,9 +131,11 @@ FinProces
 
 ### Desafío
 - Ahora siembra 10 Zanahorias y 10 Lechugas en cada Zurco.
+			 
 ![image](https://user-images.githubusercontent.com/8560750/158347580-8b79e154-a3f5-47d4-84e9-da0bddc45786.png)
 
 - Ahora siembra Una Zanahoria y Una Lechuga.		    
+			 
 ![image](https://user-images.githubusercontent.com/8560750/158347729-42077229-bd53-4066-a427-a30595841468.png)
 		    
 			 			 
