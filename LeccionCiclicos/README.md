@@ -13,7 +13,8 @@ La instrucción **Para** ejecuta una secuencia de instrucciones un número deter
     <li><a href="#desplegar-1-al-100">Desplegar 1 al 100</a></li>
     <li><a href="#trazar-una-línea">Trazar Una Línea</a></li>
     <li><a href="#sembrando-zanahorias">Sembrando Zanahorias</a></li>
-
+    <li><a href="#tablas_multiplicar">Tablas Multiplicar</a></li>
+    <li><a href="#dibujando_Rectángulo">Dibujando Rectángulo</a></li>	  
   </ol>
 </details>              
 
@@ -137,5 +138,32 @@ FinProces
 - Ahora siembra Una Zanahoria y Una Lechuga.		    
 			 
 ![image](https://user-images.githubusercontent.com/8560750/158347729-42077229-bd53-4066-a427-a30595841468.png)
-		    
+
+## Tablas de multiplicar 
+Usaremos el comando PARA crear las tablas de multiplicar.
+              
+```
+//Descripción: Algoritmo que presenta la tabla de multiplicar
+//		ingresada por el usuario
+//Autor:	Gabriel Barrón R.
+//Fecha:	1 Marzo 2022
+Algoritmo Tablas_Multiplicar
+	Definir contador Como Entero;
+	Definir tabla Como Entero;
+	
+	Escribir "Algoritmo que calcula la tabla de multiplicar";
+	Escribir "Autor:  Fernando Vega Torres";
+	Escribir "---------------------------------------------";
+	Escribir Sin Saltar "Ingresar la tabla de multiplicar a calcular: ";
+	Leer tabla;
+	
+	Escribir ""; // Da un salto
+	Para contador <- 1 Hasta 10 Con Paso 1 Hacer
+		// formatea la salida
+		Escribir contador, ' x ', tabla, ' = ', contador*tabla;
+	Fin Para
+	
+FinAlgoritmo			 
+```			 
 			 			 
+![image](https://user-images.githubusercontent.com/8560750/159548824-1346802b-6aa3-4285-8693-7c2c83599e62.png)
