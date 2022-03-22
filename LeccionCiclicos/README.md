@@ -13,8 +13,8 @@ La instrucción **Para** ejecuta una secuencia de instrucciones un número deter
     <li><a href="#desplegar-1-al-100">Desplegar 1 al 100</a></li>
     <li><a href="#trazar-una-línea">Trazar Una Línea</a></li>
     <li><a href="#sembrando-zanahorias">Sembrando Zanahorias</a></li>
-    <li><a href="#tablas_multiplicar">Tablas Multiplicar</a></li>
-    <li><a href="#dibujando_Rectángulo">Dibujando Rectángulo</a></li>	  
+    <li><a href="#tablas-de-multiplicar">Tablas De Multiplicar</a></li>
+    <li><a href="#dibujando-rectangulo">Dibujando Rectangulo</a></li>	  
   </ol>
 </details>              
 
@@ -139,7 +139,8 @@ FinProces
 			 
 ![image](https://user-images.githubusercontent.com/8560750/158347729-42077229-bd53-4066-a427-a30595841468.png)
 
-## Tablas de multiplicar 
+***		
+## Tablas De Multiplicar 
 Usaremos el comando PARA crear las tablas de multiplicar.
               
 ```
@@ -167,3 +168,35 @@ FinAlgoritmo
 ```			 
 			 			 
 ![image](https://user-images.githubusercontent.com/8560750/159548824-1346802b-6aa3-4285-8693-7c2c83599e62.png)
+	
+***		
+## Dibujando Rectangulo 
+Usaremos el comando PARA simular la figura de un rectángulo.
+              
+```
+//Descripcion: Algoritmo que simula dibujar un rectángulo
+//Autor:	Juanito Programmer
+//Fecha:	1 Marzo 2022
+Algoritmo Dibujando_Rectangulo
+	
+	Definir base, altura Como Entero; //Dimensiones rectángulo
+	Definir contador1, contador2 Como Entero; //Ciclos Para
+	
+	Escribir "Algoritmo para Dibujar Rectángulo";
+	Escribir "Autor: Juanito Programmer";
+	Escribir "---------------------------------";
+	Escribir "";
+	Escribir Sin Saltar "Ingresar la base y la altura ";
+	Leer base, altura;
+	
+	//Ciclo PARA externo dibuja la altura
+	Para contador1 <-1 Hasta altura Con Paso 1 Hacer
+		//Ciclo PARA interno dibuja la base de rectángulo
+		Para contador2 <- 1 Hasta base Con Paso 1 Hacer
+			Escribir Sin Saltar "* ";
+		Fin Para
+		Escribir ""; //Salto de línea
+	Fin Para
+FinAlgoritmo			 
+```	
+![image](https://user-images.githubusercontent.com/8560750/159550500-22497298-c1ce-4ba7-b54c-f23136b9fe44.png)
