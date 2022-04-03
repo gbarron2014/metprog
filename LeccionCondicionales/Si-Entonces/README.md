@@ -8,8 +8,8 @@
     <li><a href="#aprobar-curso">Aprobar Curso</a></li>
     <li><a href="#mayor-dos-numeros">Mayor de dos numeros</a></li>
     <li><a href="#menor-dos-numeros">Menor de dos numeros</a></li>
-    <li><a href="#tablas-de-multiplicar">Tablas De Multiplicar</a></li>
-    <li><a href="#dibujando-rectangulo">Dibujando Rectangulo</a></li>	  
+    <li><a href="#edad-para-votar">Edad para Votar</a></li>
+    <li><a href="#par-o-impar">Par o Impar</a></li>	  
   </ol>
 </details>              
 
@@ -135,4 +135,51 @@ FinProceso
 
 ```
 
+# Edad para votar
+```
+//Algoritmo que ayudará a saber si un ciudadano puede votar.
+//Autor: Gabriel Barrón
+//Fecha: 3 abril 2022
+Proceso Edad_para_votar
+	//Declara variable de tipo Entero
+	Definir edad Como Entero;
+	
+	//Ingreso de una edad
+	Escribir "Algoritmo para saber si puedo puedo votar o no";
+	Escribir Sin Saltar "Ingresa tu edad ";
+	Leer edad;
+	
+	//La condición es que sea mayor  o igual a 18 años
+	// y edad menor o igual a cien años
+	Si edad >= 18 Y edad <= 100 Entonces
+		Escribir "Puedes votar!!";			
+	FinSi
+FinProceso
+```
 
+# Par o Impar
+```
+//Algoritmo Que indica si un numero es Par o Impar
+//Autor: Gabriel Barrón
+//Fecha: 3 abril 2022
+Proceso Par_Impar
+	//Declara variable de tipo Numero
+	Definir num, resto Como Numero;
+	
+	//Ingreso el valor de numero
+	Escribir "Algoritmo para conocer si un numero es Par o Impar";
+	Escribir ""; //Salto de líbea
+	Escribir Sin Saltar "Ingresa numero ";
+	Leer num;
+	
+	resto <- num mod 2; //Almacena
+	
+	Si resto = 0 Entonces //Si resto es cero
+		Escribir "Número Par";
+	SiNo //Si resto no es cero
+		Escribir "Número Impar";
+	FinSi
+	
+FinProceso
+
+```
