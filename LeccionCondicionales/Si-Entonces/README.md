@@ -4,6 +4,7 @@
 <details>
   <summary>Tabla de Ejemplos</summary>
   <ol>
+    <li><a href="#cuenta-google">Cuenta Google</a></li>
     <li><a href="#aprobar-parcial">Aprobar Parcial</a></li>
     <li><a href="#aprobar-curso">Aprobar Curso</a></li>
     <li><a href="#mayor-dos-numeros">Mayor de dos numeros</a></li>
@@ -13,6 +14,39 @@
   </ol>
 </details>              
 
+## Aprobar Parcial
+```
+Proceso Cuenta_Google
+	
+	Definir email, password como Texto;
+	definir intentos Como Entero;
+	
+	Para intentos <-1 Hasta 3 Con Paso 1 Hacer
+		Escribir "Algoritmo para ingresar a Google";
+		Escribir ""; //salto de linea
+		Escribir "---------------------------------";
+		Escribir "Ingresa tu correo electronico";
+		Leer email;
+		
+		Si email =  "gabriel" Entonces
+			Escribir "Ingresa la contraseña";
+			Leer password;
+			
+			Si password = "12345" Entonces
+				Escribir "Bienvenido a Google";
+				intentos <- 3;
+			SiNo
+				Escribir "La contraseña es incorrecta";
+			FinSi
+			
+		SiNo
+			Escribir "No existe la cuenta de correo";
+		FinSi
+	FinPara
+	
+FinProceso
+
+```
 ## Aprobar Parcial
 
 ```
