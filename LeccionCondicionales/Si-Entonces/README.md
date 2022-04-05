@@ -14,7 +14,7 @@
   </ol>
 </details>              
 
-## Aprobar Parcial
+## Cuenta Google
 ```
 Proceso Cuenta_Google
 	
