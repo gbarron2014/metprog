@@ -1,3 +1,6 @@
+//Ganancia de Art√≠culo
+// Autor Gabriel Barron
+
 Proceso ganancia_articulo
 	Definir precio Como Real;
 	Definir ganancia, total Como Real;
@@ -6,7 +9,7 @@ Proceso ganancia_articulo
 	Escribir "";
 	
 	//Paso 1 Solicitar precio y desplegarla
-	Escribir "Ingresar precio artÌculo ";
+	Escribir "Ingresar precio art√≠culo ";
 	Leer precio;
 	Escribir "El precio del articulo es " , precio;
 	
@@ -16,5 +19,5 @@ Proceso ganancia_articulo
 	
 	//Paso 3 Calcular precio al publico y desplegarlo
 	total<- precio + ganancia;
-	Escribir "Precio al p˙blico es ",total;
+	Escribir "Precio al p√∫blico es ",total;
 FinProceso
