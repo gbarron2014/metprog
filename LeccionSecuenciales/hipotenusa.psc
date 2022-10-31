@@ -1,6 +1,9 @@
+// Calculo Hipotenusa
+// Autor Gabriel Barron
+
 Proceso hipotenusa
 	
-	Escribir "Algoritmo de c·lculo de hipotenusa";
+	Escribir "Algoritmo de c√°lculo de hipotenusa";
 	Escribir "----------------------------------";
 	Escribir "";
 	
