@@ -1,16 +1,17 @@
 // Desarrolle un algoritmo que lea un valor
-// entero, lo doble, y después lo multiplique 
-//por 25 al final despliegue el resultado.
+// entero, lo doble, y despuÃ©s lo multiplique 
+// por 25 al final despliegue el resultado.
+// Autor Gabriel Barron
 Algoritmo doblar_numero
-	Escribir "Algoritmo Doblar Número";
+	Escribir "Algoritmo Doblar NÃºmero";
 	Escribir ":) :) :) :) :) :) :) :) :) :):):)";
-	Escribir ""; //Salto de línea
+	Escribir ""; //Salto de lÃ­nea
 	
-	//Paso 1 Solicitar el número entero
+	//Paso 1 Solicitar el nÃºmero entero
 	Definir data Como Entero;
-	Escribir "Ingresar el número ";
+	Escribir "Ingresar el nÃºmero ";
 	Leer data;
-	//Paso 2 Doblar el número y mult por 25
+	//Paso 2 Doblar el nÃºmero y mult por 25
 	Definir res Como Entero;
 	res <- data*2*25;
 	//Paso 3 Dar a conocer el resultado
