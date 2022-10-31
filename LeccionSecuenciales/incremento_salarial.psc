@@ -1,3 +1,6 @@
+// Algoritmo de Incremento Salarial
+// Autor Gabriel Barron
+
 Algoritmo incremento_salarial
 	
 	// Paso 1 Solicitar el salario actual
