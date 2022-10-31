@@ -8,7 +8,7 @@
   - Despliegue de mensajes.
   - Lectura de datos.
 
-# Tabla de Contenido
+# [Tabla de Contenido](#home)
 - [Algoritmo Cambio de divisa](#alg1)
 - [Algoritmo Valor absoluto](#alg2)
 - [Algoritmo Frecuencia cardiaca máxima](#alg3)
