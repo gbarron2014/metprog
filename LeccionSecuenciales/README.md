@@ -136,3 +136,95 @@ Algoritmo incremento_salarial
 	Escribir "Nuevo salario ", salario* 1.25;
 FinAlgoritmo
 ```
+
+## Algoritmo Doblar número y multiplicar por 25
+Desarrolle un algoritmo que lea un valor entero, lo doble, y después lo multiplique por 25 
+al final despliegue el resultado.
+
+```
+// Desarrolle un algoritmo que lea un valor
+// entero, lo doble, y después lo multiplique 
+// por 25 al final despliegue el resultado.
+// Autor Gabriel Barron
+Algoritmo doblar_numero
+	Escribir "Algoritmo Doblar Número";
+	Escribir ":) :) :) :) :) :) :) :) :) :):):)";
+	Escribir ""; //Salto de línea
+	
+	//Paso 1 Solicitar el número entero
+	Definir data Como Entero;
+	Escribir "Ingresar el número ";
+	Leer data;
+	//Paso 2 Doblar el número y mult por 25
+	Definir res Como Entero;
+	res <- data*2*25;
+	//Paso 3 Dar a conocer el resultado
+	Escribir "El resultado es ", res;
+FinAlgoritmo
+```
+
+## Algoritmo Fórmula General
+Una ecuación de segundo grado o ecuación cuadrática de una variable es una ecuación que 
+tiene la forma de una suma algebraica de términos cuyo grado máximo es dos, es decir, una 
+ecuación cuadrática puede ser representada por un polinomio de segundo grado o 
+polinomio cuadrático.
+
+![formula](https://user-images.githubusercontent.com/8560750/199028246-ce7a2459-0e9f-4602-a7b3-c0e5da45803d.png)
+
+Escriba un algoritmo para calcular las raíces reales de la ecuación cuadrática ax2 + bx + c = 
+0. Donde a, b, c son coeficientes reales. Nótese que si la cantidad dentro del signo de la raíz 
+cuadrada es negativa entonces las raíces son complejas o imaginarias. También si ocurre 
+una división por cero si a = 0. Etiquétense las salidas para hacer el programa legible. 
+Repítanse los cálculos para valores diferentes de a, b, y c. Efectúense las pruebas para los 
+datos:
+- a = 1 b= 4 c = 2
+- a = 1 b = 2 c= 2.3
+
+## Algoritmo Presupuesto de hospital
+En un hospital del sector público existen tres áreas: Ginecología, Pediatría y Traumatología. 
+El presupuesto anual del hospital se reparte de acuerdo a la siguiente tabla:
+
+| Área | Porcentaje |
+| ----------- | ----------- |
+| Ginecología | 40%|
+| Traumatología | 30%|
+| Pediatría | 30% |
+
+Desarrolle un algoritmo para calcular la cantidad de dinero que recibirá cada área de 
+acuerdo al porcentaje mostrado en la tabla anterior.
+
+```
+//Presupuesto de Hospital
+// Autor Gabriel Barron
+Proceso hospital
+	Definir cantidad Como Real;
+	
+	Escribir "Algoritmo Presupuesto Hospital";
+	Escribir "------------------------------";
+	Escribir "";
+	//Paso 1 Solicitar cantidad de dinero
+	Escribir sin saltar "Ingresar cantidad total presupuesto";
+	Leer cantidad;
+	
+	//Paso 2 Calcular cantidad de Ginecologia 40% y desplegar
+	Escribir "Presupuesto Ginecología ", cantidad*0.40;
+	
+	//Paso 3 Calcular cantidad de Traumatología 30% y desplegar
+	Escribir "Presupuesto Traumatología ", cantidad*0.30;
+	
+	//Paso 4 Calcular cantidad de Pediatría 30% y desplegar
+	Escribir "Presupuesto Pediatría ", cantidad*0.30;	
+	
+FinProceso
+```
+
+
+## Algoritmo Ganancia de artículo
+El dueño de una tienda de autoservicio compra un artículo a su proveedor a un precio 
+determinado y desea calcular la ganancia por artículo de acuerdo a un incremento del 30%. 
+Desarrolle un algoritmo que obtenga la ganancia y el despliegue el precio al público del 
+artículo.
+
+```
+
+```
