@@ -8,7 +8,19 @@
   - Despliegue de mensajes.
   - Lectura de datos.
 
-## Algoritmo Cambio de divisa
+# Tabla de Contenido
+- [Algoritmo Cambio de divisa](#alg1)
+- [Algoritmo Valor absoluto](#alg2)
+- [Algoritmo Frecuencia cardiaca máxima](#alg3)
+- [Algoritmo Incremento salarial](#alg4)
+- [Algoritmo Doblar número y multiplicar por 25](#alg5)
+- [Algoritmo Fórmula General](#alg6)
+- [Algoritmo Presupuesto de hospital](#alg7)
+- [Algoritmo Ganancia de artículo](#alg8)
+- [Algoritmo Cálculo de hipotenusa](#alg9)
+- [Algoritmo Índice de masa corporal](#alg10)
+
+## Algoritmo Cambio de divisa<a name="alg1"></a>
 Un viajero mexicano desea cambiar su dinero de pesos mexicanos a dólares y euros en 
 partes iguales (50% y 50%). Se le pide a PseInti que desarrolle un algoritmo que calcule e 
 imprima el total de dólares americanos y el total de euros que recibiría por su dinero. 
@@ -51,7 +63,7 @@ Algoritmo cambio_divisa
 FinAlgoritmo
 ```
 
-## Algoritmo Valor absoluto
+## Algoritmo Valor absoluto<a name="alg2"></a>
 Un estudiante de la materia de Cálculo diferencial e integral, desea conocer el valor absoluto 
 de un número cualquiera, para ello le solicita a PseInti que desarrolle un algoritmo calcule 
 el valor absoluto.
@@ -79,7 +91,7 @@ Algoritmo valor_absoluto
 FinAlgoritmo
 ```
 
-## Algoritmo Frecuencia cardiaca máxima
+## Algoritmo Frecuencia cardiaca máxima<a name="alg3"></a>
 Por regla general, la frecuencia normal de una persona en reposo oscila entre 50 y 100 
 latidos por minuto. Sin embargo, hay que detallar algunos aspectos que alteran su estado. 
 La frecuencia máxima (fcm) que puede alcanzar el corazón ante un ejercicio físico alto 
@@ -115,7 +127,7 @@ Algoritmo fcm
 FinAlgoritmo
 ```
 
-## Algoritmo Incremento salarial
+## Algoritmo Incremento salarial<a name="alg4"></a>
 En una fábrica de talavera de la ciudad de Dolores Hidalgo CIN, debido a sus altas ventas 
 obtenidas en el año que acaba de pasar, el gerente de la empresa les anuncia una 
 excelente noticia sobre un incremento salarial del 25% sobre su salario actual. Desarrolle 
@@ -137,7 +149,7 @@ Algoritmo incremento_salarial
 FinAlgoritmo
 ```
 
-## Algoritmo Doblar número y multiplicar por 25
+## Algoritmo Doblar número y multiplicar por 25<a name="alg5"></a>
 Desarrolle un algoritmo que lea un valor entero, lo doble, y después lo multiplique por 25 
 al final despliegue el resultado.
 
@@ -163,7 +175,7 @@ Algoritmo doblar_numero
 FinAlgoritmo
 ```
 
-## Algoritmo Fórmula General
+## Algoritmo Fórmula General<a name="alg6"></a>
 Una ecuación de segundo grado o ecuación cuadrática de una variable es una ecuación que 
 tiene la forma de una suma algebraica de términos cuyo grado máximo es dos, es decir, una 
 ecuación cuadrática puede ser representada por un polinomio de segundo grado o 
@@ -180,7 +192,7 @@ datos:
 - a = 1 b= 4 c = 2
 - a = 1 b = 2 c= 2.3
 
-## Algoritmo Presupuesto de hospital
+## Algoritmo Presupuesto de hospital<a name="alg7"></a>
 En un hospital del sector público existen tres áreas: Ginecología, Pediatría y Traumatología. 
 El presupuesto anual del hospital se reparte de acuerdo a la siguiente tabla:
 
@@ -219,7 +231,7 @@ FinProceso
 ```
 
 
-## Algoritmo Ganancia de artículo
+## Algoritmo Ganancia de artículo<a name="alg8"></a>
 El dueño de una tienda de autoservicio compra un artículo a su proveedor a un precio 
 determinado y desea calcular la ganancia por artículo de acuerdo a un incremento del 30%. 
 Desarrolle un algoritmo que obtenga la ganancia y el despliegue el precio al público del 
@@ -251,7 +263,7 @@ Proceso ganancia_articulo
 FinProceso
 ```
 
-## Algoritmo Cálculo de hipotenusa
+## Algoritmo Cálculo de hipotenusa<a name="alg9"></a>
 El teorema de Pitágoras establece que en todo triángulo rectángulo, el cuadrado de la 
 longitud de la hipotenusa es igual a la suma de los cuadrados de las respectivas longitudes 
 de los catetos.
@@ -285,7 +297,7 @@ FinProceso
 ```
 
 
-## Algoritmo Índice de masa corporal
+## Algoritmo Índice de masa corporal<a name="alg10"></a>
 El índice de masa corporal (IMC) es una razón matemática que asocia la masa y la talla de 
 un individuo, ideada por el estadístico belga Adolphe Quetelet por lo que también se 
 conoce como índice de Quetelet.
