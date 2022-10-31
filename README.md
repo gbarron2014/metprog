@@ -1,11 +1,16 @@
-# Introducción
+# Introduccion a PseInt
 
-<!-- TABLA OF CONTENIDOS -->
+
+- Es un software que interpreta pseudocódigo.
+- Permite la generación de diagramas de flujo, dado un algoritmo en pseudocódigo.
+- Para compilar y ejecutar nuestro pseudocódigo debemos presionar el botón. 
+
+# Tabla de Contenido
 <details>
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#introduccion-a-pseint">introduccion a PseInt</a>
+      <a href="#algoritmo">Algoritmo</a>
     </li>
     <li>
       <a href="LeccionBasicos/README.md">Comandos Básicos</a>
@@ -14,10 +19,9 @@
   </ol>
 </details>
 
-## Introduccion a PseInt
-- Es un software que interpreta pseudocódigo.
-- Permite la generación de diagramas de flujo, dado un algoritmo en pseudocódigo.
-- Para compilar y ejecutar nuestro pseudocódigo debemos presionar el botón. 
+
+## Algoritmo
+![algoritmo](https://user-images.githubusercontent.com/8560750/199021926-166e57e0-7bde-4ece-bdef-17ff0a47856f.jpg)
 
 Todo algoritmo en pseudocódigo tiene la siguiente estructura general:
 ```
@@ -30,7 +34,8 @@ Todo algoritmo en pseudocódigo tiene la siguiente estructura general:
           acción n;
      FinAlgoritmo
 ```
-Comienza con la palabra clave Algoritmo(o alternativamente Proceso, son sinónimos) seguida del nombre del programa, luego le sigue una secuencia de instrucciones y finaliza con la palabra FinAlgoritmo(o FinProceso). Una secuencia de instrucciones es una lista de una o más instrucciones y/o estructuras de control.
+Comienza con la palabra clave **Algoritmo**(o alternativamente Proceso, son sinónimos) seguida del nombre del programa, luego le sigue una secuencia de instrucciones y finaliza con la palabra **FinAlgoritmo**(o FinProceso).
+Una secuencia de instrucciones es una lista de una o más instrucciones y/o estructuras de control.
 
 ## Variables
 Una **variable** en un algoritmo es una posición de memoria donde se puede almacenar información. Por ejemplo, si un programa debe obtener el área de un triángulo, seguramente la base del mismo y su altura se carguen en memoria en dos variables para poder realizar el cálculo. El resultado, probablemente también se asigne en una variable luego del cálculo para luego informarlo al usuario. Como su nombre lo indica, el valor almacenado en una variable puede ir variando a medida que el programa avanza. En un pseudocódigo el concepto es similar. Una variable representa un lugar donde guardar cierta información.
@@ -72,7 +77,7 @@ Existen tres tipos de datos básicos:
 	direccion <- "Alamedad"; //Tipo Texto
 ```
 
-## Comandos Básicos
+## [Comandos Básicos](https://github.com/gbarron2014/metprog/tree/main/LeccionSecuenciales)
 - ESCRIBIR
 - LEER
 - ASIGNAR
