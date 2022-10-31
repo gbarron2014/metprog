@@ -226,5 +226,101 @@ Desarrolle un algoritmo que obtenga la ganancia y el despliegue el precio al pú
 artículo.
 
 ```
+//Ganancia de Artículo
+// Autor Gabriel Barron
 
+Proceso ganancia_articulo
+	Definir precio Como Real;
+	Definir ganancia, total Como Real;
+	Escribir "Algoritmo Ganancia Articulo";
+	Escribir "---------------------------";
+	Escribir "";
+	
+	//Paso 1 Solicitar precio y desplegarla
+	Escribir "Ingresar precio artículo ";
+	Leer precio;
+	Escribir "El precio del articulo es " , precio;
+	
+	//Paso 2 Calcular ganancia y desplegarla
+	ganancia <- precio * 0.30;	
+	Escribir "La ganancia del articulo es ", ganancia;
+	
+	//Paso 3 Calcular precio al publico y desplegarlo
+	total<- precio + ganancia;
+	Escribir "Precio al público es ",total;
+FinProceso
+```
+
+## Algoritmo Cálculo de hipotenusa
+El teorema de Pitágoras establece que en todo triángulo rectángulo, el cuadrado de la 
+longitud de la hipotenusa es igual a la suma de los cuadrados de las respectivas longitudes 
+de los catetos.
+ℎ𝑖𝑝𝑜𝑡𝑒𝑛𝑢𝑠𝑎 = (𝑎**2 + 𝑏**2)**0.5
+
+Desarrolle un algoritmo que calcule la hipotenusa de un triángulo rectángulo conocidas las 
+longitudes de sus dos catetos a y b. 
+```
+// Calculo Hipotenusa
+// Autor Gabriel Barron
+
+Proceso hipotenusa
+	
+	Escribir "Algoritmo de cálculo de hipotenusa";
+	Escribir "----------------------------------";
+	Escribir "";
+	
+	// Paso 1 Ingresar valores de catetos a y b
+	Definir catA, catB Como Real;
+	Escribir "Ingresar valores de cateto A y B";
+	Leer catA, catB;
+	
+	// Paso 2 Calcular valor de hipotenusa
+	Definir hip Como Real;
+	hip <- raiz(catA^2 + catB^2);
+	// Paso 3 Dar a conocer hipotenusa
+	Escribir "Dado el cateto A = ", catA;
+	Escribir "Dado el cateto B = ", catB;
+	Escribir "El calculo de la hipotenusa es ", hip;
+FinProceso
+```
+
+
+## Algoritmo Índice de masa corporal
+El índice de masa corporal (IMC) es una razón matemática que asocia la masa y la talla de 
+un individuo, ideada por el estadístico belga Adolphe Quetelet por lo que también se 
+conoce como índice de Quetelet.
+𝑖𝑚𝑐 = 𝑚𝑎𝑠𝑎/𝑎𝑙𝑡𝑢𝑟𝑎**2
+
+Nota
+- La masa es calculada en kilogramos y la altura en metros.
+
+Desarrolle un algoritmo que calcule e imprima el índice de masa corporal que una persona 
+posee de cuerdo a la fórmula.
+
+```
+Proceso indice_masa_corporal
+	
+	Escribir "Algoritmo de cálculo de indice masa corporal";
+	Escribir "--------------------------------------------";
+	Escribir "";
+	
+	// Paso 1 Solicitar masa en kilogramos
+	Definir masa Como Real;
+	Escribir "Ingresar masa en kilogramos";
+	Leer masa;
+	
+	// Paso 2 Solicitar altura en metros
+	Definir altura Como Real;
+	Escribir "Ingresar altura en metros";
+	Leer altura;
+	
+	// Paso 3 Calcular masa corporal
+	Definir imc Como Real;
+	imc <- masa/altura^2;
+	
+	// Paso 3 Dar a conocer Indice de Masa corporal
+	Escribir "De acuerdo a la masa  = ", masa;
+	Escribir "De acuerdo a la talla", altura;
+	Escribir "El IMC (Indice de Masa Corporal) = ", imc;
+FinProceso
 ```
