@@ -50,3 +50,89 @@ Algoritmo cambio_divisa
 	Escribir "Cantidad de Euros; ", euros;
 FinAlgoritmo
 ```
+
+## Algoritmo Valor absoluto
+Un estudiante de la materia de Cálculo diferencial e integral, desea conocer el valor absoluto 
+de un número cualquiera, para ello le solicita a PseInti que desarrolle un algoritmo calcule 
+el valor absoluto.
+
+```
+// Un estudiante de la materia de Cálculo diferencial e integral, desea conocer el 
+// valor absoluto de un número cualquiera, para ello le solicita a PseInti que 
+// desarrolle un algoritmo calcule el valor absoluto
+// Autor Gabriel Barron
+Algoritmo valor_absoluto
+	
+	Escribir "Algoritmo Valor Absoluto";
+	Escribir "***********************";
+
+	//Paso 1 Ingresar el valor
+	Definir x Como Real;
+	Escribir "Ingresar el valor ";
+	Leer x;
+	//Paso 2 Calcular el valor absoluto
+	Definir absolute Como Real;
+	absolute <- abs(x); // Función que calcula valor absoluto
+	
+	//Paso 3 Desplegar el resultado
+	Escribir "El Valor Absoluto ", absolute;
+FinAlgoritmo
+```
+
+## Algoritmo Frecuencia cardiaca máxima
+Por regla general, la frecuencia normal de una persona en reposo oscila entre 50 y 100 
+latidos por minuto. Sin embargo, hay que detallar algunos aspectos que alteran su estado. 
+La frecuencia máxima (fcm) que puede alcanzar el corazón ante un ejercicio físico alto 
+depende de la edad y puede calcularse mediante la siguiente fórmula:
+- 𝑓𝑐𝑚 = 220 𝑙𝑝𝑚 − 𝑒𝑑𝑎𝑑
+- lpm Latidos por minuto
+
+Desarrolle un algoritmo que calcule el número de latidos que una persona puede alcanzar 
+por cada 60 segundos o minuto tomando en consideración la edad de la persona.
+
+```
+// Calcula Frecuencia Máxima (fcm) en base a la edad
+// Autor: Gabriel Barrón Rodríguez
+// Fecha: 28 Octubre 2022
+Algoritmo fcm
+	Escribir "Algoritmo Frecuencia Cardiaca Máxima";
+	Escribir "Nosotros te cuidamos 3> 3>   :) :)";
+	Escribir "====================================";
+	Escribir "";  //Salto línea
+	
+	// Paso 1 Solicitar la edad
+	Definir age Como Entero;
+	Escribir Sin Saltar "Introduce your age  ";
+	Leer age;
+	
+	// Paso 2 Calcular la fcm = 220 - edad solicitada
+	Definir frecuencia Como Entero;
+	frecuencia <- 220 - age;
+	
+	// Paso 3 Dar a conocer la fcm
+	Escribir sin saltar "Tu Frecuencia cardiaca máxima es ";
+	Escribir frecuencia;
+FinAlgoritmo
+```
+
+## Algoritmo Incremento salarial
+En una fábrica de talavera de la ciudad de Dolores Hidalgo CIN, debido a sus altas ventas 
+obtenidas en el año que acaba de pasar, el gerente de la empresa les anuncia una 
+excelente noticia sobre un incremento salarial del 25% sobre su salario actual. Desarrolle 
+un algoritmo que calcule el nuevo salario.
+
+```
+// Algoritmo de Incremento Salarial
+// Autor Gabriel Barron
+
+Algoritmo incremento_salarial
+	
+	// Paso 1 Solicitar el salario actual
+	Definir salario Como Real;
+	Escribir Sin Saltar "Ingresar salario ";
+	Leer salario;
+	// salario(1.25)
+	// Paso 4 Dar a conocer el nuevo salario
+	Escribir "Nuevo salario ", salario* 1.25;
+FinAlgoritmo
+```
