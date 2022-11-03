@@ -1,12 +1,11 @@
-# Comandos Básicos o Estructuras Secuenciales.
-- Se caracteriza porque una acción se ejecuta detrás de otra.
-- El flujo del programa coincide con el orden físico en el que se han ido poniendo las instrucciones.
-- Dentro de esta categoría podemos encontrar operaciones de **Inicio/Fin, inicialización de variables, operaciones de asignación, cálculo, despliegue de mensajes, etc**.
-- Este tipo de estructura se basa en las 5 fases de que consta todo algoritmo o programa:
-  - Definición de variables (Declaración)
-  - Inicialización de variables o asignarun valor.
-  - Despliegue de mensajes.
-  - Lectura de datos.
+# Comandos Condicionales Simples.
+- Se caracteriza porque una acción o conjunto de acciones se condiciona .
+- El comando es Si-Entonces.
+```
+	Si expresion_logica Entonces
+		acciones_por_verdadero
+	FinSi
+```
 
 # [Tabla de Contenido](#home)
 - [Algoritmo Cambio de divisa](#alg1)
@@ -74,7 +73,28 @@ de un número cualquiera, para ello le solicita a PseInti que desarrolle un algo
 el valor absoluto.
 
 ```
-
+// Un estudiante de la materia de Cálculo diferencial e integral, desea conocer el 
+// valor absoluto de un número cualquiera, para ello le solicita a PseInti que 
+// desarrolle un algoritmo calcule el valor absoluto
+// Autor Gabriel Barron
+Algoritmo valor_absoluto
+	
+	Escribir "Algoritmo Valor Absoluto";
+	Escribir "***********************";
+	
+	//Paso 1 Ingresar el valor
+	Definir x Como Real;
+	Escribir "Ingresar el valor ";
+	Leer x;
+	//Paso 2 Calcular el valor absoluto
+	Definir absolute Como Real;
+	Si x < 0 Entonces  //Condición cuando el valor es negativo
+		absolute <- x * (-1); //Conversión a positivo
+	FinSi
+	
+	//Paso 3 Desplegar el resultado
+	Escribir "El Valor Absoluto ", absolute;
+FinAlgoritmo
 ```
 
 ## Algoritmo Frecuencia cardiaca máxima<a name="alg3"></a>
@@ -89,7 +109,35 @@ Desarrolle un algoritmo que calcule el número de latidos que una persona puede 
 por cada 60 segundos o minuto tomando en consideración la edad de la persona.
 
 ```
-
+// Calcula Frecuencia Máxima (fcm) en base a la edad
+// Autor: Gabriel Barrón Rodríguez
+// Fecha: 28 Octubre 2022
+Algoritmo fcm
+	Escribir "Algoritmo Frecuencia Cardiaca Máxima";
+	Escribir "Nosotros te cuidamos 3> 3>   :) :)";
+	Escribir "====================================";
+	Escribir "";  //Salto línea
+	
+	// Paso 1 Solicitar la edad
+	Definir age Como Entero;
+	Escribir Sin Saltar "Introduce your age  ";
+	Leer age;
+	
+	Si age < 0 Entonces //Compuerta que se abre cuando la condición es verdadera
+		Escribir "La edad ", age, " es incorrecta";
+	FinSi
+	
+	Si age >= 0 Entonces //Compuerta que se abre cuando la edad es positiva
+		// Paso 2 Calcular la fcm = 220 - edad solicitada
+		Definir frecuencia Como Entero;
+		frecuencia <- 220 - age;
+		
+		// Paso 3 Dar a conocer la fcm
+		Escribir sin saltar "Tu Frecuencia cardiaca máxima es ";
+		Escribir frecuencia;
+	FinSi
+	
+FinAlgoritmo
 ```
 
 ## Algoritmo Incremento salarial<a name="alg4"></a>
