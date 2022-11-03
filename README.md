@@ -77,10 +77,41 @@ Existen tres tipos de datos básicos:
 	direccion <- "Alamedad"; //Tipo Texto
 ```
 
-## [Comandos Básicos](https://github.com/gbarron2014/metprog/tree/main/LeccionSecuenciales)
-- ESCRIBIR
-- LEER
-- ASIGNAR
+## Estructuras de Control
+- [Secuenciales](https://github.com/gbarron2014/metprog/tree/main/LeccionSecuenciales)
+- [Condicionales](https://github.com/gbarron2014/metprog/tree/main/LeccionCondicionales)
+
+	- Simples
+	```
+		Si expresion_logica Entonces
+			acciones_por_verdadero
+		FinSi
+	```	
+	- Dobles
+	```
+		Si expresion_logica Entonces
+			acciones_por_verdadero
+		SiNo
+			acciones_por_falso
+		FinSi
+	```	
+	- Múltiples
+	```
+	Segun variable_numerica Hacer
+		opcion_1:
+			secuencia_de_acciones_1
+		opcion_2:
+			secuencia_de_acciones_2
+		opcion_3:
+			secuencia_de_acciones_3
+		De Otro Modo:
+			secuencia_de_acciones_dom
+	FinSegun	
+	```
+- Cíclicas
+	- Para
+	- Mientras
+	- Repetir- Hasta Que
 
 
 
