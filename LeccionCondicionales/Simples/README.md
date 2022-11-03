@@ -147,7 +147,26 @@ excelente noticia sobre un incremento salarial del 25% sobre su salario actual. 
 un algoritmo que calcule el nuevo salario.
 
 ```
+// Algoritmo de Incremento Salarial
+// Autor Gabriel Barron
 
+Algoritmo incremento_salarial
+	
+	// Paso 1 Solicitar el salario actual
+	Definir salario Como Real;
+	Escribir Sin Saltar "Ingresar salario ";
+	Leer salario;
+	
+	Si salario >= 0 Entonces //Compuerta abierta cuando salario es positivo
+		// salario(1.25)
+		// Paso 4 Dar a conocer el nuevo salario
+		Escribir "Nuevo salario ", salario* 1.25;
+	FinSi
+	
+	Si salario < 0 Entonces //Compuerta abierta cuando salario es negativo
+		Escribir "El salario ", salario, " es un valor incorrecto :c :c";
+	FinSi
+FinAlgoritmo
 ```
 
 ## Algoritmo Doblar número y multiplicar por 25<a name="alg5"></a>
@@ -155,7 +174,25 @@ Desarrolle un algoritmo que lea un valor entero, lo doble, y después lo multipl
 al final despliegue el resultado.
 
 ```
-
+// Desarrolle un algoritmo que lea un valor
+// entero, lo doble, y después lo multiplique 
+// por 25 al final despliegue el resultado.
+// Autor Gabriel Barron
+Algoritmo doblar_numero
+	Escribir "Algoritmo Doblar Número";
+	Escribir ":) :) :) :) :) :) :) :) :) :):):)";
+	Escribir ""; //Salto de línea
+	
+	//Paso 1 Solicitar el número entero
+	Definir data Como Entero;
+	Escribir "Ingresar el número ";
+	Leer data;
+	//Paso 2 Doblar el número y mult por 25
+	Definir res Como Entero;
+	res <- data*2*25;
+	//Paso 3 Dar a conocer el resultado
+	Escribir "El resultado es ", res;
+FinAlgoritmo
 ```
 
 ## Algoritmo Fórmula General<a name="alg6"></a>
@@ -174,6 +211,50 @@ Repítanse los cálculos para valores diferentes de a, b, y c. Efectúense las p
 datos:
 - a = 1 b= 4 c = 2
 - a = 1 b = 2 c= 2.3
+
+```
+Proceso ecuacion_cuadratica
+	Definir a,b,c Como Real;
+	
+	Escribir "algoritmo de raices cuadráticas";
+	Escribir "Autor: Gabriel Barrón";
+	Escribir "------------------------------";
+	//Paso 1 Solicitar los valores a,b,c
+	Escribir "Ingresar el coeficiente a ";
+	Leer a;
+	Escribir "Ingresar el coeficiente b ";
+	Leer b;
+	Escribir "Ingresar el coeficiente c ";
+	Leer c;
+	
+	Si b^2-4*a*c >=0 y a  <> 0 Entonces 
+		//Paso 2 Calcular (b**2-4*a*c)*0.5
+		Definir num Como Real;
+		num <- raiz(b^2-4*a*c);
+		
+		//Paso 3 Calcular X1 = (-b+ (b**2-4*a*c)*0.5)/2*a
+		Definir x1 Como Real;
+		x1 <- (-b + num) /(2*a);
+		
+		//Paso 4 Calcular X1 = (-b- (b**2-4*a*c)*0.5)/2*a
+		Definir x2 Como Real;
+		x2 <- (-b - num) /(2*a);
+		//Paso 5 Desplegar la solución
+		Escribir "La raíz 1 es ", x1;
+		Escribir "La raíz 2 es ", x2;
+	FinSi
+	
+	si b^2-4*a*c < 0 Entonces
+		Escribir "No hay solución";
+	FinSi
+	
+	Si a = 0 Entonces
+		Escribir "El coeficiente a ", a, " debe ser distinto a cero";
+	FinSi
+FinAlgoritmo
+
+		
+```
 
 ## Algoritmo Presupuesto de hospital<a name="alg7"></a>
 En un hospital del sector público existen tres áreas: Ginecología, Pediatría y Traumatología. 
