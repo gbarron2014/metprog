@@ -13,44 +13,6 @@ FinSi
 
 Al ejecutarse esta instrucción, se evalúa la condición y se ejecutan las instrucciones que correspondan: las instrucciones que le siguen al Entonces si la condición es verdadera, o las instrucciones que le siguen al Sino si la condición es falsa. La condición debe ser una expresión lógica, que al ser evaluada retorna Verdadero o Falso.
 
-# [Tabla de Contenido](#home)
-- [Algoritmo Venta de LLantas](#alg1)
-
-## Algoritmo Venta de llantas<a name="alg1"></a>
-```
-Algoritmo Goodyear
-	
-	Escribir "Algoritmo de Venta de LLantas";
-	Escribir ""; //salto de línea
-	
-	// Paso 1 Solicitar el total a llantas a comprar
-	Definir tyres Como Entero;
-	Escribir Sin Saltar "Ingresar total de llantas [1 a 50]";
-	Leer tyres;
-	
-	//Paso 2 Verificar que el número este entre 1 y 50
-	Definir monto Como Real;
-	Si tyres >= 1 y tyres <= 50 Entonces
-		//Paso 2.1 Si esta número de llantas entre 1 y 4
-		Si tyres <= 4 Entonces
-			monto  <-  tyres * 800;
-		SiNo
-			//Paso 2.2 Si esta número de llantas entre 5 y 50
-			//       monto <- llantas * 700
-			monto  <-  tyres * 700;
-		FinSi
-				
-		//Paso 2.3 Dar a conocer el monto total
-		Escribir "El monto total es ", monto;
-	SiNo
-		//Paso 3 En caso que no esté entre 1 y 50 ERROR
-		Escribir "Número de llantas Incorrecto [1 a 50]";
-	FinSi
-	
-	
-FinAlgoritmo
-
-```
 
 ## Segun
 
