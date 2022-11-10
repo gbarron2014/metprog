@@ -1,17 +1,18 @@
 # [Tabla de Contenido](#home)
-- [Algoritmo Cambio de divisa](#alg1)
-- [Algoritmo Valor absoluto](#alg2)
-- [Algoritmo Frecuencia cardiaca máxima](#alg3)
-- [Algoritmo Incremento salarial](#alg4)
-- [Algoritmo Doblar número y multiplicar por 25](#alg5)
-- [Algoritmo Fórmula General](#alg6)
-- [Algoritmo Presupuesto de hospital](#alg7)
-- [Algoritmo Ganancia de artículo](#alg8)
-- [Algoritmo Cálculo de hipotenusa](#alg9)
-- [Algoritmo Índice de masa corporal](#alg10)
-- [Algoritmo Venta de LLantas](#alg11)
-- [Algoritmo Super Market](#alg12)
+- [Cambio de divisa](#alg1)
+- [Valor absoluto](#alg2)
+- [Frecuencia cardiaca máxima](#alg3)
+- [Incremento salarial](#alg4)
+- [Doblar número y multiplicar por 25](#alg5)
+- [Fórmula General](#alg6)
+- [Presupuesto de hospital](#alg7)
+- [Ganancia de artículo](#alg8)
+- [Cálculo de hipotenusa](#alg9)
+- [Índice de masa corporal](#alg10)
+- [Venta de LLantas](#alg11)
+- [Super Market](#alg12)
 - [Salario Semanal](#alg13)
+- [Acreditación de Curso](#alg14)
 
 ## Algoritmo Cambio de divisa<a name="alg1"></a>
 Un viajero mexicano desea cambiar su dinero de pesos mexicanos a dólares y euros en 
@@ -394,7 +395,10 @@ FinAlgoritmo
 
 
 # Algoritmo Salario Semanal<a name="alg13"></a>
-Se desea determinar si un estudiante aprueba o reprueba un curso, sabiendo que son tres calificaciones parciales y el punto de pase de cada parcial es mayor o igual a 6; reprobará el curso en caso contrario. Tome en cuenta que una calificación deberá estar entre 0 y 10 puntos.
+Un obrero necesita calcular su salario semanal, el cual se obtiene de la siguiente manera:
+- Si trabaja 40 horas o menos se le paga $16.00 x hora.
+- Si trabaja más de 40 horas se le paga $32.00 x hora extra.
+
 ```
 Algoritmo salario_semanal
 	
@@ -437,7 +441,57 @@ Algoritmo salario_semanal
 	FinSi
 	
 FinAlgoritmo
+```
 
+# Algoritmo Acreditación Escolar<a name="alg14"></a>
+Un obrero necesita calcular su salario semanal, el cual se obtiene de la siguiente manera:
+- Si trabaja 40 horas o menos se le paga $16.00 x hora.
+- Si trabaja más de 40 horas se le paga $32.00 x hora extra.
+
+Desarrolle un algoritmo que indica si un estudiante puede aprobar o no aprobar el curso.
+```
+Algoritmo School
+	
+	Escribir "Algoritmo de Acreditación Escolar";
+	Escribir ""; // Salto de linea
+	
+	//Paso 1 Solicitar tres calificaciones parciales x Unidad
+	Definir p1, p2, p3 Como Real;
+	Escribir "Ingresar las tres calificaciones parciales [0 al 10]";
+	Leer p1, p2, p3;
+	
+	Definir mensaje como cadena;
+	
+	//Paso 2 Validar que las tres calificaciones sean correctas 0 a 10
+	
+	Si (p1 >= 0 y p1 <= 10) y (p2 >= 0 y p2 <= 10)  y (p3 >= 0 y p3 <= 10) Entonces
+		//Paso 2.1 Verificar aprobacion en parcial 1, en caso contrario no aprobado
+		mensaje <- "";
+		Si p1 >= 6 Entonces			
+			Si p2 >= 6 Entonces
+				Si p3 >= 6 Entonces
+					Escribir "Felicidades aprobaste";
+				SiNo
+					Escribir "Lo siento no aprobaste por Parcial 3";
+				FinSi
+			SiNo
+				Escribir "Lo siento no aprobaste por Parcial 2";
+			FinSi
+			
+		SiNo
+			Escribir "Lo siento no aprobaste por Parcial 1";
+		FinSi
+	SiNo
+		Escribir "Alguna de las calificaciones es Incorrecta";
+	FinSi
+	
+	//Paso 2.2 Verificar aprobacion en parcial 2, en caso contrario no aprobado
+	//Paso 2.3 Verificar aprobacion en parcial 3 dar a conocer que acreditó;
+	//         en caso contrario no aprobado
+	
+	//Paso 3 Dar a conocer error en calificaciones
+	
+FinAlgoritmo
 
 ```
 
