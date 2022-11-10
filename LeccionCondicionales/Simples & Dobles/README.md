@@ -9,7 +9,8 @@
 - [Algoritmo Ganancia de artículo](#alg8)
 - [Algoritmo Cálculo de hipotenusa](#alg9)
 - [Algoritmo Índice de masa corporal](#alg10)
-- [Venta de LLantas](#alg11)
+- [Algoritmo Venta de LLantas](#alg11)
+- [Algoritmo Super Market](#alg12)
 
 ## Algoritmo Cambio de divisa<a name="alg1"></a>
 Un viajero mexicano desea cambiar su dinero de pesos mexicanos a dólares y euros en 
@@ -337,6 +338,53 @@ Algoritmo venta_llantas
 		Escribir "Gracias por su compra  :)";
 	SiNo  //Datos Incorrectos
 		Escribir "El dato ", llantas, " es Incorrecto :c";
+	FinSi
+	
+FinAlgoritmo
+
+```
+
+# Algoritmo Super Market<a name="alg12"></a>
+En un supermercado cada miércoles se hace una promoción para atraer a sus clientes, la
+promoción consiste en un descuento por el monto de compra si el cliente elige un número
+dependiendo de una tombola al azar. Si el numero al azar es menor que 74 el
+descuento es del 15% sobre el total de la compra, si es mayor o igual a 74 el descuento es
+del 20%. Desarrolle un algoritmo que calcule monto a pagar de acuerdo al número elegido.
+
+Consideraciones
+- El algoritmo deberá de generar un número al azar entre 1 y 100 mostrarlo al cliente.
+- Se deberá de validar que el monto de compra no sea un monto negativo.
+```
+Algoritmo super_market
+	
+	Escribir "Algoritmo Super Market";
+	Escribir "";
+	
+	Definir monto, value, total, descuento Como Real;
+	Escribir Sin Saltar "Ingresar el monto de la compra ";
+	Leer monto;
+	
+	value <- azar(101); //Numero aleatorio entre 0 y 100
+	Limpiar Pantalla;
+	Si monto > 0 Entonces
+		Si value < 74 Entonces //Depende valor al azar es 15%
+			descuento <- monto * 0.15; 
+		SiNo
+			descuento <- monto * 0.20; 
+		FinSi
+		total <- monto - descuento;
+		
+		Esperar 1 segundos; //Pausa por un segundos
+		Escribir "==========================================";
+		Escribir "El monto de la compra es: ", monto;
+		Escribir "Valor aleatorio: ", value;
+		Escribir "Descuento: ", descuento;
+		Escribir "Total a pagar: ", total;
+		Escribir "";
+		Escribir "Gracias por su compra :)";
+		Escribir "==========================================";
+	SiNo
+		Escribir "El monto ", monto, " es incorrecto :c";
 	FinSi
 	
 FinAlgoritmo
