@@ -1,12 +1,3 @@
-# Comandos Condicionales Simples.
-- Se caracteriza porque una acción o conjunto de acciones se condiciona .
-- El comando es Si-Entonces.
-```
-	Si expresion_logica Entonces
-		acciones_por_verdadero
-	FinSi
-```
-
 # [Tabla de Contenido](#home)
 - [Algoritmo Cambio de divisa](#alg1)
 - [Algoritmo Valor absoluto](#alg2)
