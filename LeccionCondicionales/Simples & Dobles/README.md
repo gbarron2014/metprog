@@ -594,7 +594,7 @@ FinProceso
 
 ```
 
-# Inicia con Vocal o Consonante<a name="alg17"></a>
+# Descuento por clave de artículo<a name="alg17"></a>
 Desarrolle un algoritmo que dado el nombre, la clave y precio de artículo calcule precio total a pagar
 - Si se tiene clave 1 el descuento es de 10%
 - Si se tiene clave 2 el descuento es de 20%
