@@ -9,6 +9,7 @@
 - [Algoritmo Ganancia de artículo](#alg8)
 - [Algoritmo Cálculo de hipotenusa](#alg9)
 - [Algoritmo Índice de masa corporal](#alg10)
+- [Venta de LLantas](#alg11)
 
 ## Algoritmo Cambio de divisa<a name="alg1"></a>
 Un viajero mexicano desea cambiar su dinero de pesos mexicanos a dólares y euros en 
@@ -301,5 +302,43 @@ Desarrolle un algoritmo que calcule e imprima el índice de masa corporal que un
 posee de cuerdo a la fórmula.
 
 ```
+
+```
+
+# Algoritmo Venta de LLantas<a name="alg11"></a>
+Calcular el monto total que una persona debe pagar en una tienda llantera, la tienda a
+lanzado ofertas y promociones para ésta navidad como la siguiente: Si la compra es menor de 5 llantas el
+precio es $800.00 c/u y de 5 o más a $700 c/u.
+
+Consideraciones:
+- El número de llantas debe de estar comprendido entre 1 y 50.
+Desarrolle un algoritmo que calcule el monto total a pagar por un cliente al comprar un determinado número de llantas.
+
+```
+Algoritmo venta_llantas
+	Escribir "Algoritmo Venta de LLantas ";
+	Escribir "==============================================";
+	Escribir "";
+	
+	Definir llantas, precio_total Como Entero;
+	Escribir "Ingresar el total de llantas a comprar [1 a 50]";
+	Leer llantas;
+	
+	Si llantas >= 1 y llantas <= 50 Entonces //Verifica validez de llantas
+		
+		Si llantas <= 4 Entonces  //Precio 800 c/u
+			precio_total <- llantas * 800;
+		SiNo
+			precio_total <- llantas * 700;
+		FinSi
+		
+		Escribir  "No. llantas ", llantas;
+		Escribir "Total Compra $" , precio_total;
+		Escribir "Gracias por su compra  :)";
+	SiNo  //Datos Incorrectos
+		Escribir "El dato ", llantas, " es Incorrecto :c";
+	FinSi
+	
+FinAlgoritmo
 
 ```
