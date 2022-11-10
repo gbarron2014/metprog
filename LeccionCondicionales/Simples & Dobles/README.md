@@ -13,6 +13,7 @@
 - [Super Market](#alg12)
 - [Salario Semanal](#alg13)
 - [Acreditación de Curso](#alg14)
+- [Producto de Almacén](#alg15)
 
 ## Algoritmo Cambio de divisa<a name="alg1"></a>
 Un viajero mexicano desea cambiar su dinero de pesos mexicanos a dólares y euros en 
@@ -490,6 +491,52 @@ Algoritmo School
 	//         en caso contrario no aprobado
 	
 	//Paso 3 Dar a conocer error en calificaciones
+	
+FinAlgoritmo
+
+```
+
+# Algoritmo Acreditación Escolar<a name="alg15"></a>
+En un almacén se hace un 20% de descuento a los clientes cuya compra supere los $1,000.00
+¿Cuál será la cantidad que pagará una persona por su compra?. 
+
+Consideraciones
+- Tome en cuenta cuando se proporcione una cantidad negativa.
+
+Desarrolle un algoritmo que realice el cálculo de la compra
+```
+Algoritmo producto_almacen
+	
+	Escribir "Algoritmo de Producto de Almacén";
+	Escribir ""; // Salto de linea
+	
+	Definir compra, descuento Como Real;
+	Escribir "Ingresar el monto de la compra";
+	Leer compra;
+	
+	Limpiar Pantalla;
+	descuento <- 0; //Inicializa variable
+	Si compra > 0 Entonces // Compra válida
+		Escribir "Algoritmo de Producto de Almacén";
+		Escribir ""; // Salto de linea
+		Si compra > 1000 Entonces //Compra superada hay descuento
+			descuento <- compra*0.20;
+			Escribir "========================================";
+			Escribir "Monto de compra: ", compra;
+			Escribir "Descuento: " , descuento;
+			Escribir "Total con descuento: ", compra - descuento;
+			Escribir "========================================";
+		SiNo
+			Escribir "========================================";
+			Escribir "Monto de compra: ", compra;
+			Escribir "Descuento: " , descuento;
+			Escribir "Total con descuento: ", compra - descuento;
+			Escribir "========================================";
+			
+		FinSi
+	SiNo
+		Escribir "Ingresar un monto de compra correcto";
+	FinSi
 	
 FinAlgoritmo
 
