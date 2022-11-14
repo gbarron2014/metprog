@@ -219,13 +219,13 @@ FinAlgoritmo
 
 ```
 
-## Descripción día de la semana <a name="alg3"></a>
+## Descripción día de la semana <a name="alg4"></a>
 Podemos decir que un año consta de doce meses y muchas de las veces cuando nos registramos en Facebook, en Gmail nos dan a capturar la fecha de nacimiento y entre ellos se incluye el nombre del mes de nacimiento. Diseñe un algoritmo que dado un número entre [1,12] despliegue de manera textual el mes.
 
 ![imagen](https://user-images.githubusercontent.com/8560750/201741803-24cca6d5-fc60-42b3-9c11-9abead87af54.png)
 
 ```
-Algoritmo Day_of_week
+Algoritmo Day_of_month
 	
 	Escribir "Algoritmo Indica que indica el mes";
 	Escribir "===============================================";
