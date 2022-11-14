@@ -4,6 +4,7 @@
 - [Sueldo de Trabajador](#alg1)
 - [Hospital en crisis](#alg2)
 - [Descripción día de la semana](#alg3)
+- [Descripción mes](#alg4)
 
 ## Sueldo de Trabajador<a name="alg1"></a>
 Elabore un algoritmo, que calcule el aumento de sueldo de un trabajador, conociendo del mismo: su nombre, tipo de trabajador,  sueldo y la cantidad de hijos que tiene. El porcentaje de aumento del sueldo viene dado por el tipo de trabajador que es:
@@ -217,3 +218,60 @@ Algoritmo Day_of_week
 FinAlgoritmo
 
 ```
+
+## Descripción día de la semana <a name="alg3"></a>
+Podemos decir que un año consta de doce meses y muchas de las veces cuando nos registramos en Facebook, en Gmail nos dan a capturar la fecha de nacimiento y entre ellos se incluye el nombre del mes de nacimiento. Diseñe un algoritmo que dado un número entre [1,12] despliegue de manera textual el mes.
+
+![imagen](https://user-images.githubusercontent.com/8560750/201741803-24cca6d5-fc60-42b3-9c11-9abead87af54.png)
+
+```
+Algoritmo Day_of_week
+	
+	Escribir "Algoritmo Indica que indica el mes";
+	Escribir "===============================================";
+	Escribir "";
+	
+	//Datos de Entrada
+	Definir mes Como Entero; //Lo manejaremos como Entero
+	Escribir Sin Saltar "Ingresar día del mes [1 a 12]";
+	Leer mes;
+	
+	Limpiar Pantalla;
+	Escribir "Algoritmo Indica que indica el mes";
+	Escribir "===============================================";
+	Escribir "";
+ 
+	Segun mes Hacer //Sigue varios posibles caminos
+		1:
+			Escribir Sin Saltar "Enero es el primer mes del año en el calendario gregoriano";
+			Escribir "y tiene 31 días.";
+		2:
+			Escribir Sin Saltar "Febrero es el segundo mes del año en el calendario gregoriano.";
+			Escribir "Tiene 28 días y 29 en los años bisiestos.";
+		3:
+			Escribir "Marzo es el tercer mes del año en el calendario gregoriano y tiene 31 días.";
+		4:
+			Escribir "Abril es el cuarto mes del año y es uno de los cuatro meses que tienen 30 días.";
+		5:
+			Escribir "Mayo es el quinto mes del año en el calendario gregoriano y tiene 31 días.";
+		6:
+			Escribir "Junio es el sexto mes del año en el Calendario Gregoriano y tiene 30 días.";
+		7:
+			Escribir "Julio es el séptimo mes del año en el calendario gregoriano y tiene 31 días.";
+		8:
+			Escribir "Agosto es el octavo mes del año en el calendario gregoriano y tiene 31 días.";
+		9:
+			Escribir "Septiembre es el noveno mes del año en el calendario gregoriano y tiene 30 días.";
+		10:
+			Escribir "Octubre es el décimo mes del año en el calendario gregoriano y tiene 31 días.";
+		11:
+			Escribir "Noviembre es el undécimo y penúltimo mes del año en el calendario gregoriano y tiene 30 días.";
+		12:
+			Escribir "Diciembre es el duodécimo y último mes del año en el calendario gregoriano y 	tiene 31 días.";
+		De Otro Modo:
+			Escribir "Día Incorrecto ";
+	FinSegun
+FinAlgoritmo
+
+```
+
