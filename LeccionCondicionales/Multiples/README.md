@@ -3,6 +3,7 @@
 # [Tabla de Contenido](#home)
 - [Sueldo de Trabajador](#alg1)
 - [Hospital en crisis](#alg2)
+- [Descripción día de la semana](#alg3)
 
 ## Sueldo de Trabajador<a name="alg1"></a>
 Elabore un algoritmo, que calcule el aumento de sueldo de un trabajador, conociendo del mismo: su nombre, tipo de trabajador,  sueldo y la cantidad de hijos que tiene. El porcentaje de aumento del sueldo viene dado por el tipo de trabajador que es:
@@ -165,6 +166,54 @@ Algoritmo Hospital
 	SiNo
 		Escribir "El nombre es Incorrecto";
 	FinSi		
+FinAlgoritmo
+
+```
+
+## Descripción día de la semana <a name="alg3"></a>
+Diseñe un algoritmo para mostrar en pantalla el nombre del día de acuerdo a un número entero comprendido entre 1 y 7 que se ingrese como dato entrada.
+
+|Día|Descripción del día|
+|---|-------------------|
+|1  |DOMINGO DIA FELIZ Y DEL SOL|
+|2  |LUNES DIA DE LA LUNA|
+|3  |MARTES DIA DE MARTE|
+|4  |MIERCOLES DIA DE MERCURIO|
+|5  |JUEVES DIA DE JUPITER|
+|6  |VIERNES DIA DE VENUS|
+|7  |SABADO DIA DE SATURNO|
+|Otro|Dato inválido|
+
+```
+Algoritmo Day_of_week
+	
+	Escribir "Algoritmo Indica que día semana es";
+	Escribir "===============================================";
+	Escribir "";
+	
+	//Datos de Entrada
+	Definir dia Como Cadena; //Lo manejaremos como Texto
+	Escribir Sin Saltar "Ingresar día de la semana [1 a 7]";
+	Leer dia;
+	
+	Segun dia Hacer //Sigue varios posibles caminos
+		"1":
+			Escribir "DOMINGO DIA FELIZ Y DEL SOL";
+		"2":
+			Escribir "LUNES DIA DE LA LUNA";
+		"3":
+			Escribir "MARTES DIA DE MARTE";
+		"4":
+			Escribir "MIERCOLES DIA DE MERCURIO";
+		"5":
+			Escribir "JUEVES DIA DE JUPITER";
+		"6":
+			Escribir "VIERNES DIA DE VENUS";
+		"7":
+			Escribir "SABADO DIA DE SATURNO";
+		De Otro Modo:
+			Escribir "Día Incorrecto ";
+	FinSegun
 FinAlgoritmo
 
 ```
