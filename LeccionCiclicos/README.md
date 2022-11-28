@@ -110,24 +110,54 @@ FinProceso
 ![imagen](https://user-images.githubusercontent.com/8560750/158096106-bbba9eb4-24fe-4bfd-89cd-c0858bd2ef65.png)
 		    
 ## Sembrando Zanahorias 
-El abuelo de PseInti desea sembrar en su huerto una hilera de zanahorias.
+En la ciudad de Pseintlandia que es una ciudad donde abunda la naturaleza Wild; PseInti es un chico agricultor
+por naturaleza genética, generalmente le ayuda a su abuelo a sembrar zanahorias y lechugas, Pseinti desea
+ayudar y desea sembrar en el huerto de su abuelo las zanahorias encomendadas para la siguiente temporada.
+
+Instrucciones
+- Desarrolle un algoritmo de tal manera que Pseinti siembre en el huerto un número de zanahorias
+determinado por el usuario, tome en cuenta que a cada surco le caben diez zanahorias.
+- Las zanahorias son representadas por asteriscos.
+- Tome en cuenta que el número deberá de estar comprendido entre 1 y 1000;
               
 ```
 // Algoritmo Sembrando Zanahorias.
-// Autor: Felipe Arellano Ruiz
+// Autor: Gabriel Barrón R.
 // Fecha: 01 Marzo 2022
-Proceso sembrando_zanahorias
-	//Define la variable que lleva cuenta en ciclo
-	Definir contador Como Entero;
+Proceso SembrandoZanahorias
+	Definir carrots Como Entero; //Guarda el total de zanahorias
+	Definir count Como Entero; //Contador Ciclo Para
 	
-	Para contador <- 1 Hasta 10 Con Paso 1 Hacer
-		Escribir Sin Saltar "& ";
-	FinPara
+	Escribir "Algoritmo Siembra de Zanahorias";
+	Escribir "--------------------------------";
+	Escribir Sin Saltar "Ingresa el total de zanahorias";
+	Leer carrots;
+	
+	Limpiar Pantalla;
+	
+	
+	Escribir "Algoritmo Siembra de Zanahorias";
+	Escribir "-------------------------------";
 	Escribir "";
 	
-FinProces           
+	Si carrots>=1 y carrots <= 1000 Entonces//Validación de datos
+		Para count <- 1 Hasta carrots Con Paso 1 Hacer
+			Escribir Sin Saltar "* "; //Dejar espacio entre zanahoria
+			
+			Si count mod 10 = 0 Entonces //Diez cada Zurco
+				Escribir ""; //Siguiente Zurco
+				
+			FinSi
+		FinPara
+	SiNo
+		Escribir "Cantidad Incorrecta de Zanahorias";
+	FinSi
+	
+	Escribir "";
+FinProceso
+         
 ```     
-![image](https://user-images.githubusercontent.com/8560750/158347317-dee5d215-47ad-4434-9701-ec70916b1079.png)
+![image](https://user-images.githubusercontent.com/8560750/204293714-5014edb1-6b9f-461f-969f-0642f59aa052.png)
 
 
 ### Desafío
