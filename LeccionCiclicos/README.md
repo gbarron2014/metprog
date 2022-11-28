@@ -15,6 +15,7 @@ La instrucción **Para** ejecuta una secuencia de instrucciones un número deter
     <li><a href="#sembrando-zanahorias">Sembrando Zanahorias</a></li>
     <li><a href="#tablas-de-multiplicar">Tablas De Multiplicar</a></li>
     <li><a href="#dibujando-rectangulo">Dibujando Rectangulo</a></li>	  
+    <li><a href="#series">Series</a></li>	  
   </ol>
 </details>              
 
@@ -230,3 +231,121 @@ Algoritmo Dibujando_Rectangulo
 FinAlgoritmo			 
 ```	
 ![image](https://user-images.githubusercontent.com/8560750/159550500-22497298-c1ce-4ba7-b54c-f23136b9fe44.png)
+
+***		
+## Series 
+En clase de cálculo se le solicitó a Pseinti que desarrollara un programa para imprimir las siguientes series.
+- Serie I. 5, 10, 15, 20, ......., 490,495,500
+- Serie II. 500, 495, 490, 485, 480 ........., 15, 10, 5
+- Serie III. 1, 1, 2, 3, 5, 8, 13, 21
+- Serie IV. 5! = 5*4*3*2*1
+				  
+```
+// Algoritmo que varias series numéricas.
+// Autor: Gabriel Barrón R.
+
+Proceso Series
+	Definir contador como entero; //Variable contador de ciclo para
+	Definir opcion Como Entero; //Opción Capturada por usuario
+	definir number como entero; //Variable para solicitar factorial y fibonacci
+	definir factorial como entero; //Variable para calcular factorial
+	definir termino1, termino2, termino3 como entero; //Términos series
+	
+	Escribir "";
+	Escribir " Dibujado de figuras geométricas";
+	Escribir " Autor:";
+	Escribir "";
+	Escribir " |-------------------------------------|";
+	Escribir " |                                     |";
+	Escribir " |      1. Serie I Ascendente          |";
+	Escribir " |                                     |";
+	Escribir " |      2. Serie II Descendente        |";
+	Escribir " |                                     |";
+	Escribir " |      3. Serie III Factorial         |";
+	Escribir " |                                     |";
+	Escribir " |      4. Serie IV  Fibonacci         |";
+	Escribir " |                                     |";
+	Escribir " |      5. Salir                       |";
+	Escribir " |-------------------------------------|";
+	Escribir "";
+	Escribir sin saltar " Elige el número de opción de la figura";
+	leer opcion;
+	
+	segun opcion Hacer
+		1:
+			Escribir "Desplegando serie ascendente No. 1";
+			Escribir "";
+			Para contador<-5 Hasta 500 Con Paso 5 Hacer
+				Escribir Sin Saltar " " , contador;
+			FinPara
+			Escribir "";
+			Escribir " Presione una tecla para continuar";
+			Esperar Tecla;
+			Limpiar Pantalla;
+		2:
+			Escribir "Desplegando serie descendente No. 2";
+			Escribir "";
+			Para contador<-500 Hasta 5 Con Paso -5 Hacer
+				Escribir Sin Saltar " " , contador;
+			FinPara
+			Escribir "";
+			Escribir " Presione una tecla para continuar";
+			Esperar Tecla;
+			Limpiar Pantalla;	
+		3:
+			Escribir " Factorial de un número entero";
+			Escribir "";
+			Escribir sin saltar " Ingresa el número";
+			leer number;
+			factorial <- 1;
+			Escribir "";
+			Escribir Sin Saltar " ";
+			Para contador<-number Hasta 1 Con Paso -1 Hacer
+				factorial <- factorial * contador;
+				si contador >= 2 entonces
+					Escribir Sin Saltar  contador , " * ";
+				SiNo
+					Escribir Sin Saltar  contador;
+				Finsi		
+			FinPara
+			Escribir " = ", factorial;
+			
+			Escribir "";
+			Escribir " Presione una tecla para continuar";
+			Esperar Tecla;
+			Limpiar Pantalla;	
+		4:
+			Escribir " Desplegando Serie de Fibonacci";
+			Escribir "";
+			Escribir sin saltar " Ingresa el n término";
+			leer number;
+			Escribir sin saltar " 1 1 ";
+			termino1 <- 1;
+			termino2 <- 1;
+			Para contador<-1 Hasta number - 2 Con Paso 1 Hacer
+				
+				termino3 <- termino2 + termino1;
+				termino1 <- termino2;
+				termino2 <- termino3;
+				Escribir Sin Saltar  termino2 , " ";
+				
+			FinPara
+			
+			Escribir "";
+			Escribir " Presione una tecla para continuar";
+			Esperar Tecla;
+			Limpiar Pantalla;	
+			
+	FinSegun
+FinProceso
+			 
+```	
+![image](https://user-images.githubusercontent.com/8560750/204298087-e87600d9-07cf-4aa0-bb38-e088f343f45a.png)
+
+![image](https://user-images.githubusercontent.com/8560750/204298236-d98d3898-b891-4230-b51b-087cca2cf481.png)
+
+![image](https://user-images.githubusercontent.com/8560750/204298366-c252deba-5df2-44b9-a0a3-cca4fb20a8e3.png)
+
+![image](https://user-images.githubusercontent.com/8560750/204298524-6ef51160-343a-4090-a203-af158c39fe23.png)
+	
+	
