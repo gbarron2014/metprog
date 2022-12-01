@@ -33,3 +33,5 @@ La secuencia de instrucciones ejecutada por una instrucción Según depende del 
 Esta instrucción permite ejecutar opcionalmente varias acciones posibles, dependiendo del valor almacenado en una variable de tipo numérico. Al ejecutarse, se evalúa el contenido de la variable y se ejecuta la secuencia de instrucciones asociada con dicho valor.
 
 Cada opción está formada por uno o más números separados por comas, dos puntos y una secuencia de instrucciones. Si una opción incluye varios números, la secuencia de instrucciones asociada se debe ejecutar cuando el valor de la variable es uno de esos números. Opcionalmente, se puede agregar una opción final, denominada De Otro Modo, cuya secuencia de instrucciones asociada se ejecutará sólo si el valor almacenado en la variable no coincide con ninguna de las opciones anteriores.
+
+[Práctica de Condicionales](https://drive.google.com/file/d/1KPnXnsuFiJDP2-vAFhmi3jQZYMMu8rqH/view?usp=share_link)
